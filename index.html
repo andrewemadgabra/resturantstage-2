@@ -36,14 +36,14 @@
 <body>
 	<!-- skip link -->
 	<div>
-		<a href="#neighborhoods" class="skip-link">Skip to Filter Results</a>
+		<a href="#neighborhoods-select" class="skip-link">Skip to Filter Results</a>
 	</div>
 
 	<div class="wrapper">
 		<header class="header">
 			<nav>
 				<h1>
-					<a href="/"tabindex="-1">Restaurant Reviews</a>
+					<a href="/">Restaurant Reviews</a>
 				</h1>
 			</nav>
 		</header>
@@ -55,10 +55,10 @@
 			<section class="filter-options">
 				<div id="filter-options">
 					<h2>Filter Results</h2>
-					<select tabindex="1"  id="neighborhoods-select" name="neighborhoods" title="neighborhoods" onchange="updateRestaurants()">
+					<select id="neighborhoods-select" name="select neighborhoods" title="select neighborhoods" onchange="updateRestaurants()">
 						<option value="all">All Neighborhoods</option>
 					</select>
-					<select tabindex="2" id="cuisines-select" name="cuisines" title="cuisines" onchange="updateRestaurants()">
+					<select id="cuisines-select" name="select cuisines" title="select cuisines" onchange="updateRestaurants()">
 						<option value="all">All Cuisines</option>
 					</select>
 				</div>
