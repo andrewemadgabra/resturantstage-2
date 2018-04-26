@@ -25,7 +25,7 @@ const loadScript = (source, beforeEl, async = true, defer = true) => {
 	});
 }
 
-const scriptUrl = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCGCG4LLAepqds1dL9mgOPFWkq7l46iUJc&libraries=places&callback=initMap';
+const scriptUrl = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBk90grmxAIQ5LR6qz92rzHtiAEARi4ZHY&libraries=places&callback=initMap';
 loadScript(scriptUrl).then(() => {
 	console.log('script loaded');
 }, () => {
